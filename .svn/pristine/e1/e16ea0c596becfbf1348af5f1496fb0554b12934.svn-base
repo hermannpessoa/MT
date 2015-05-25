@@ -7,7 +7,7 @@
    
 </head>
 
-<body><!-- teste SmartSVN + Git Mothafucka -->
+<body>
     <?php include('includes/topoNav.php'); ?>
     <?php include('includes/header.php'); ?>
     <?php include('includes/fullBanner.php'); ?>
