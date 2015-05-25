@@ -1,0 +1,1226 @@
+#referenceFlow .row input[type=text]{
+    padding: 8px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #9a9a9a;
+  font-size: 16px;
+  width: 100%;
+  margin-right: 10px;
+}
+.eea{
+  float: left;
+  margin-right: 6px;
+  padding-left: 31px;
+}
+.qtdOrdr{
+      position: relative;
+  width: 49px;
+  float: left;
+  margin-top: -11px;
+  }
+  .qtdOrdr input{
+    padding: 10px;
+    width: 34px;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+  }
+  .qtdOrdr a{
+    border: 6px solid transparent;
+    cursor: pointer;
+    display: block;
+    height: 0;
+    position: absolute;
+    right: 10px;
+    text-indent: -9999px;
+    width: 0;
+  }
+  .qtdOrdr a{
+    position: absolute;
+    /*top: 0;*/
+      right: -10px;
+    width: 1px;
+    margin-left: 13px;
+    padding: 0px 0;
+    z-index: 999;
+    display: block;
+    color: #000;
+    font-size: 14px;
+  }
+  .qtdPlural{
+    display: none;
+  }
+  .addUnit{
+    border-bottom-color: #1868a9 !important;
+    top: 2px !important;
+  }
+  .removeUnit{
+    border-top-color: #1868a9 !important;
+    bottom: 2px;
+  }
+
+.cartao-frente:hover .containerBackArts{
+ display: block !important;
+}
+.cartao-frente:hover .containerBackArts ul{
+  text-align: center;
+}
+.cartao-frente:hover .containerBackArts ul li:last-child{
+  display: none;
+}
+.cartao-frente .prevContainer img,
+.cartao-frente .containerBackArts label{
+ transition: all 300ms ease-out;
+ transition: all 300ms ease-out;
+ -webkit-transition: all 300ms ease-out;
+ -moz-transition: all 300ms ease-out;
+ -o-transition: all 300ms ease-out;
+}
+
+ .cartao-frente:hover .btn-alterarverso{
+  width: 135px;
+ }
+ .cartao-frente:hover .prevContainer img{
+  opacity: 0.3 !important;
+ }
+
+ .voltar-person{
+  display: block !important;
+  text-align: center;
+  margin: 0 0 20px !important;
+ }
+ .atualizadoPw{
+  display: none;
+ }
+ .image-product canvas{
+  width: 100%
+ }
+ .clearfix:after{
+  display: block;
+  width: 100%;
+  height: 1px solid;
+  content: " ";
+  clear: both;
+ }
+ .clearfix:before{
+  display: block;
+  width: 100%;
+  height: 1px solid;
+  content: " ";
+  clear: both;
+ }
+ .pull-left{float: left;}
+ .pull-right{float: right;}
+ .truesteps{
+  height: 23px;
+  width: 100%;
+  padding: 15px 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  clear: both;
+  margin-bottom: 20px;
+ }
+
+ .truesteps .stepstitle{
+  font-size: 22px;
+  font-family: 'Roboto Condensed', sans-serif;
+  float: left;
+  color:#9a9a9a;
+ }
+
+ .truesteps ul{
+  float: right;
+ }
+ .truesteps ul li{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  color:#9a9a9a;
+  display: inline-block;
+  text-transform: uppercase;
+  padding-right: 20px;
+  cursor: pointer;
+ }
+ .truesteps ul li.passed{
+  color:#00A600;
+
+ }
+ .truesteps ul li.passed i{
+  color:transparent;
+  background: #00A600 url(https://cdn2.iconfinder.com/data/icons/bwpx/icons/symbol_check.gif) center no-repeat;
+ }
+ .truesteps ul li i{
+  width: 33px;
+  height: 19px;
+  color: #666;
+  background: #f1f1f1;
+  border-radius: 50%;
+  text-align: center;
+  display: block;
+  float: left;
+  padding: 8px 3px 8px 0px;
+  margin-top: -9px;
+  margin-right: 10px;
+ }
+
+ .newCard, .oldCard, .pwControler{
+  display: none;
+ }
+
+ a.jqzoom{
+ width:100% !important
+ }
+ #divImagemPrincipalZoom{
+ width: auto !important;
+ }
+ a.jqzoom .zoomPad, a.jqzoom .zoomPad img, .product-image-big img{
+ width: 100% !important;
+ }
+ .newTabs{
+ width: 100%;
+ height: 30px;
+ display: table;
+ margin-top: 10px;
+ }
+ .newTabs ul{padding:0; margin:0;}
+ .newTabs ul li{
+ list-style: none;
+ float: left;
+ padding: 9px 0;
+ color: #035ba3;
+ background: #f3f3f1;
+ width: 32%;
+ margin-right: 2%;
+ text-align:center;
+ cursor:pointer;
+ }
+ .newTabs ul li:hover{
+ background:#d8d8d8
+ }
+ .newTabs ul li:last-child{
+ margin-right:0;
+ }
+ .product-image-small{
+ display: table;
+ /* height: 100px; */
+ border: 1px solid #e7e7e7;
+ width: 100%;
+ padding: 10px 0;
+ }
+ .containerMiniaturas{
+ padding: 0 54px;
+ }
+ .containerMiniaturas li{
+ margin-right: 9px !important;
+ }
+ .btn-next{
+ display: inline-block;
+ line-height: 40px;
+ margin-left: 15px;
+ font-size: 14px;
+ padding: 3px 25px;
+ font-family: 'Roboto Condensed', sans-serif;
+ }
+ .btn-verde{
+ border-radius: 3px;
+ width: auto;
+ line-height: 30px;
+ text-transform: uppercase;
+ background: #00A600;
+ border: 0;
+ color: #fff;
+ font-size: 18px;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+ }
+ .btn-verde:hover{
+  background: #73A402;
+  cursor: pointer;
+ }
+ .btn-cinza{
+ border-radius: 3px;
+ width: auto;
+ line-height: 30px;
+ text-transform: uppercase;
+ background: #f1f1f1;
+ border: 0;
+ color: #555;
+ font-size: 18px;
+ }
+ .btn-cinza:hover{
+  background: #ccc;
+ }
+ /*----------------------*/
+ /*------ TABELA --------*/
+ /*----------------------*/
+ /* line 343, sass.scss */
+ .t .strong {
+ font-weight: bold; }
+
+ /* line 346, sass.scss */
+ .t .uppercase {
+ text-transform: uppercase; }
+
+ /* line 349, sass.scss */
+ .t .red {
+ color: #F00; }
+
+ /* line 352, sass.scss */
+ .t .blue {
+ color: #035ba3; }
+
+ /* line 355, sass.scss */
+ .t .justfy {
+ text-align: justify; }
+
+ /* line 358, sass.scss */
+ .t .text-left {
+ text-align: left; }
+
+ /* line 361, sass.scss */
+ .t .text-right {
+ text-align: right; }
+
+ /* line 364, sass.scss */
+ .t .pull-left {
+ float: left; }
+
+ /* line 367, sass.scss */
+ .t .pull-right {
+ float: right; }
+
+ /* line 370, sass.scss */
+ .t .clearFix:after {
+ width: 100%;
+ height: 1px;
+ content: "";
+ display: block;
+ clear: both; }
+
+ /* line 377, sass.scss */
+ .t .noMargins {
+ margin: 0 !important; }
+
+ /* line 380, sass.scss */
+ .t .s100 {
+ width: 100%; }
+ /* line 382, sass.scss */
+ .t .s100:last-child {
+ margin-right: 0; }
+
+ /* line 386, sass.scss */
+ .t .s70 {
+ width: 66%; }
+ /* line 388, sass.scss */
+ .t .s70:last-child {
+ margin-right: 0; }
+
+ /* line 392, sass.scss */
+ .t .s50 {
+ width: 49.2%; }
+ /* line 394, sass.scss */
+ .t .s50:last-child {
+ margin-right: 0; }
+
+ /* line 398, sass.scss */
+ .t .s30 {
+ width: 32.5%; }
+ /* line 400, sass.scss */
+ .t .s30:last-child {
+ margin-right: 0; }
+
+ /* line 404, sass.scss */
+ .t.containerFormPapel {
+ position: relative;
+ display: block;
+ width: 100%;
+ border-radius: 4px;
+ padding: 15px 0; }
+
+ /* line 414, sass.scss */
+ .t .tbHeader {
+ padding: 0 15px 20px;
+ font-family: 'Roboto Condensed', sans-serif; }
+
+ /* line 418, sass.scss */
+ .t .row {
+ width: 100%;
+ box-sizing: border-box;
+ margin: 0;
+ margin-bottom: 15px; }
+
+ /* line 426, sass.scss */
+ .t .row:last-child {
+ border-bottom: none;
+ padding-bottom: 0; }
+
+ /* line 433, sass.scss */
+ .t .row:after {
+ width: 100%;
+ height: 1px;
+ content: "";
+ display: block;
+ clear: both; }
+
+ /* line 440, sass.scss */
+ .t .inputContainer {
+ margin-right: 1.2%;
+ float: left; }
+
+ /* line 444, sass.scss */
+ .t .inputContainer label {
+ display: none;
+ color: #035ba3;
+ font-weight: normal;
+ font-size: 14px;
+ font-family: 'Roboto Condensed', sans-serif; }
+
+ /* line 450, sass.scss */
+ .t .inputContainer label span {
+ font-size: 12px;
+ font-family: 'Roboto Condensed', sans-serif; }
+
+ /* line 454, sass.scss */
+ .t .inputContainer input[type="text"], .t .inputContainer select, .t .inputContainer textarea {
+ width: 100%;
+ padding: 5px;
+ border: 1px solid #c7c7c7;
+ background: #FFF;
+ color: #7e7e7e;
+ font-size: 14px;
+ border-radius: 3px;
+ box-sizing: border-box; }
+
+ /* line 464, sass.scss */
+ .t .inputContainer select {
+ border: none;
+ z-index: 2;
+ position: relative;
+ width: 98%;
+ margin: 1px 1px; }
+
+ /* line 471, sass.scss */
+ .beforeSelect {
+ width: 100%;
+ height: 32px;
+ padding: 5px;
+ border: 1px solid #c7c7c7;
+ background: #FFF;
+ color: #7e7e7e;
+ font-size: 14px;
+ border-radius: 3px;
+ box-sizing: border-box;
+ z-index: 0; }
+
+ /* line 483, sass.scss */
+ .t .chosen-container-single .chosen-single, .chosen-container-active.chosen-with-drop .chosen-single {
+ border: none !important;
+ background: none !important;
+ box-shadow: none !important;
+ border-radius: 0 !important; }
+
+ /* line 489, sass.scss */
+ .t .chosen-container-single {
+ width: 100% !important;
+ padding: 2px;
+ border: 1px solid #dedede;
+ background: #FFF;
+ color: #7e7e7e;
+ font-size: 14px;
+ border-radius: 3px;
+ box-sizing: border-box; }
+
+ /* line 499, sass.scss */
+ .t .chosen-drop {
+ border-color: #dedede !important; }
+
+ /* line 502, sass.scss */
+ .t .clickHolder {
+ position: absolute;
+ display: none;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background: rgba(255, 255, 255, 0.7);
+ z-index: 99; }
+
+ .cartao-frente, .cartao-verso {
+ /*border: 1px solid #d1d1d1;*/
+ position: relative;
+ width: 100%;
+ height: auto;
+ margin-bottom: 20px;
+ display: none;
+ /*background: #f1f1f1 url(http://papelaria.dentalcremer.com.br/images/483.GIF) center no-repeat; */
+ }
+ .cartao-frente{
+  display: block;
+ }
+ /* line 303, sass.scss */
+ .cartao-frente p.tag, .cartao-verso p.tag {
+ font-size: 12px;
+ color: #FFF;
+ padding: 5px 10px;
+ position: absolute;
+ margin: -1px;
+ left: 0;
+ top: 0;
+ background: #023f71;
+ display: none;
+ }
+ /* line 313, sass.scss */
+ .cartao-frente .prevContainer, .cartao-verso .prevContainer {
+ border: 1px solid #d1d1d1;
+ display: block;
+ margin: 5%; }
+
+ .prevContainer{
+  position: relative;
+  width: 90%;
+  /*height: 320px;*/
+  /*background: url('http://papelaria.dentalcremer.com.br/produtos/1002/cartao/verso.jpg') no-repeat;*/
+  background-size: cover !important;
+
+ }
+
+ .finalBar{
+ display: block;
+ zoom: 1;
+ border: 1px solid #CCC;
+ padding: 10px;
+ border-radius: 3px;
+ margin-bottom: 20px;
+ }
+
+ .statusEditing{
+ float: left;
+ }
+
+ .statusEditing p{
+ float: left;
+ color: #666;
+ font-family: 'Roboto Condensed', sans-serif;
+ font-size: 16px;
+ line-height: 36px;
+ }
+
+ .statusEditing ul{
+  margin-left: 15px;
+  float: left;
+ }
+ .statusEditing ul li.active{
+  border-color: #628ce2;
+  color: #628ce2;
+ }
+ .statusEditing ul li{
+  border:1px solid #ccc;
+  color: #ccc;
+  padding: 10px 20px;
+  float: left;
+  list-style: none;
+  cursor: pointer;
+ }
+
+ .statusEditing ul li:first-child{
+  -moz-border-radius: 5px 0px 0px 5px;
+  -webkit-border-radius: 5px 0px 0px 5px;
+  border-radius: 5px 0px 0px 5px;
+ }
+ .statusEditing ul li:last-child{
+  -moz-border-radius: 0px 5px 5px 0px;
+  -webkit-border-radius: 0px 5px 5px 0px;
+  border-radius: 0px 5px 5px 0px;
+ }
+ .cotinuosButtons{
+  float: right;
+ }
+ .cotinuosButtons a{
+  cursor: pointer;
+ }
+ .table-holder {
+  margin-bottom: 30px;
+  /*overflow: hidden;*/
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+ }
+ .zpromotion-oldprice {
+  display: inline-block;
+  margin-right: 5px;
+  color: #aaadb5!important;
+  font-weight: normal!important;
+  text-decoration: line-through;
+ }
+ .table-holder table tbody tr .final-price span, .table-holder table tbody tr .unit-price span {
+  display: block;
+  margin: 0;
+  font-size: 13px;
+  color: #aaa;
+  text-decoration: line-through;
+ }
+ .table-holder table tr th, .table-holder table tr td {
+  border-left: none;
+  border-right: 0;
+  vertical-align: middle;
+  text-align: left;
+  color: #818692;
+ }
+
+ .table-holder table thead tr th.quantity {
+  padding-left: 50px;
+ }
+ .table-holder table thead tr th {
+  height: 40px;
+  background-color: #eee;
+  border-bottom-width: 1px;
+  text-transform: uppercase;
+  font-size: 12px;
+ }
+ .table-holder table tr th, .table-holder table tr td {
+  position: relative;
+  border-left: none;
+  border-right: 0;
+  vertical-align: middle;
+  text-align: left;
+  color: #818692;
+ }
+ .table-holder table tbody tr td {
+  height: 70px;
+  font-size: 18px;
+  font-weight: lighter;
+ }
+ .table-holder table tbody tr .quantity {
+  padding-left: 50px;
+ }
+ .table-holder table tbody tr.selected td {
+  color: #618ae5;
+ }
+
+ .table-holder table .recommended .quantity .before {
+  text-transform: uppercase;
+  position: absolute;
+  float: left;
+  left: -8px;
+  margin-top: -20px;
+  font-size: 13px;
+  color: #735e14;
+  background-color: #ffc800;
+  padding-right: 8px;
+  padding-left: 8px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  font-size: 11px;
+  padding-top: 1px;
+  height: 18px;
+ }
+ .table-holder table .recommended .quantity .arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 0 solid transparent;
+  border-top: 10px solid #735e14;
+  left: -8px;
+  margin-top: -3px;
+  position: absolute;
+ }
+ .fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ }
+ .fa-star:before {
+  content: "\f005";
+ }
+ .editor-preview-wg .main-preview {
+  position: relative;
+  display: block;
+  background: #fff;
+  padding: 20px 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+ }
+ .editor-preview-wg .main-preview .title {
+  width: 100%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  color: #aaa;
+ }
+ .editor-preview-wg .main-preview .image-product .preview-image {
+  width: 100%;
+  height: auto;
+  margin: auto;
+ }
+ .zthumbs-border img {
+  display: block !important;
+  width: 100%;
+  background-size:cover; 
+ }
+ .zthumbs-border canvas {
+  width: 100%;
+  background-size:cover; 
+  border: 1px solid #ccc;
+ }
+ .editor-preview-wg .main-preview .image-product {
+  position: relative;
+  min-height: 100px;
+  height: auto;
+  display: block;
+  cursor: hand;
+  cursor: pointer;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+ }
+ .editor-preview-wg .main-preview .image-product .more-details-preview {
+  position: absolute;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: -45px;
+  margin-left: -45px;
+  opacity: 0;
+  transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+ }
+
+ .editor-preview-wg .main-preview .image-product:hover .more-details-preview {
+  opacity: 1!important;
+  z-index: 1000;
+ }
+ .editor-preview-wg .main-preview .details-preview {
+  display: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #818692;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+ }
+ .editor-preview-wg .main-preview .details-preview li{
+  list-style: none;
+ }
+ .editor-preview-wg .main-preview .details-preview ul {
+  border: 0;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  padding: 0;
+ }
+ .editor-preview-wg .main-preview .details-preview ul li {
+  line-height: 3px;
+  text-transform: none;
+ }
+ .editor-preview-wg .main-preview .details-preview ul li:before {
+  content: " ";
+  background-color: #666;
+  width: 4px;
+  height: 4px;
+  left: -8px;
+  top: 3px;
+  border-radius: 50%;
+  display: block;
+  position: relative;
+ }
+ .editor-preview-wg .main-preview .price {
+  padding: 0;
+  width: 100%;
+  font-size: 14px;
+  color: #818692;
+  text-transform: uppercase;
+  font-family: LatoLight;
+  vertical-align: middle;
+ }
+ .editor-preview-wg .main-preview .price .price-value {
+  font-size: 24px;
+  color: #00A600;
+  text-align: right;
+  position: relative;
+  top: -7px;
+  float: right;
+  display: inline-block;
+  font-family: 'Roboto Condensed', sans-serif;
+ }
+
+ .containerOptions .row{
+   margin-bottom: 20px;
+   padding: 20px;
+   border-radius: 3px;
+   border:1px solid #CCC;
+
+ }
+ .containerOptions .row .optTitle{
+  font-size: 18px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #014975;
+ }
+ .containerOptions .row .col-options{
+  /*padding: 20px;
+  border-radius: 3px;
+  border:1px solid #CCC;*/
+   width: 100%;
+ /* margin: 6px 0;*/
+  box-sizing: border-box;
+ }
+
+ .containerOptions .row .col-options label{
+  padding: 20px 20px 20px 40px;
+  border-radius: 3px;
+  border:1px solid #CCC;
+  width: 100%;
+  margin: 6px 0;
+  color: #CCC;
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+ }
+
+ .containerOptions .row .col-options input:checked + label:before{
+  background: url(https://cdn0.iconfinder.com/data/icons/blueberry/32/radio-button_on.png) center no-repeat;
+  background-size: cover;
+ }
+
+ .containerOptions .row .col-options label:before{
+  display: block;
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: url(https://cdn0.iconfinder.com/data/icons/blueberry/32/radio-button_off.png) center no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  margin-top: -7px;
+  left: 20px;
+ }
+
+ .containerOptions .row .col-options label:hover, .containerOptions .row .col-options label.ative{
+  border:1px solid green;
+  cursor: pointer;
+  color: #014975;
+ }
+ .containerOptions .row .col-options input[type="radio"]{
+  display: none;
+ }
+ td.ativo, span.ativo{
+  background: #CCC;
+ }
+
+ .concluirCompra,
+ .avancaCarrinho {
+  margin-left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 20px;
+  padding: 12px;
+  margin-bottom: 30px;
+ }
+
+ .concluirCompra:hover {
+  background: #538e47;
+  cursor: pointer;
+ }
+ .cartao-frente{
+  position: relative;
+ }
+ .containerBackArts{
+  position: absolute;
+  bottom: 10px;
+  left: 37px;
+  width: 89%;
+ }
+ .containerBackArts ul li{
+  list-style: none;
+  display: inline-block;
+  width: 33%;
+  margin: 0 1%;
+ }
+ .superRadioBack input{
+  display: none;
+
+ }
+ .superRadioBack label{
+  width: 100%;
+  height: 116px;
+  display: block;
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  position: relative;
+ }
+ .superRadioBack label:hover{
+  cursor: pointer;
+  border: 1px solid #004068;
+ }
+ .superRadioBack label img{
+  width:100%;
+  height: 100%;
+  border-radius: 3px;
+ }
+
+ .superRadioBack label:hover:after{
+  display: block;
+  position: absolute;
+  top: 100px;
+  left: 17px;
+  content: "ESCOLHER ESTE";
+  font-family: 'Roboto Condensed';
+  background: #004068;
+  border-radius: 7px;
+  padding: 11px;
+  font-size: 18px;
+  color: #FFF;
+ }
+ .btn-alterarverso{
+   position: absolute;
+  top: 20px;
+  right: -10px;
+   width: 40px;
+  overflow: hidden;
+  border-radius: 0px 7px 7px 0px;
+   transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+ }
+ .btn-alterarverso a{
+   color: #FFF;
+   font-size: 20px;
+   font-family: 'arial', helvetica, sans-serif;
+   padding: 10px 14px;
+  background: #004068;
+  
+   float: right;
+   position: relative;
+ }
+ .btn-alterarverso:before{
+  display: block;
+  position: absolute;
+  left: 0;
+  font-size: 16px;
+  color: #999;
+  background: #f1f1f1;
+  padding: 11.2px;
+  border: 1px solid #000;
+  content: "ALTERAR";
+  z-index: 0;
+ }
+ .btn-alterarverso:hover{
+  width: 135px;
+ }
+ .confirmacartao{
+   display: none;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(0,0,0,0.6);
+   z-index: 99999;
+  }
+  .containermodal{
+
+ position: absolute;
+ padding: 20px;
+ padding-bottom: 50px;
+ border-radius: 5px;
+ background: #FFF;
+ width: 691px;
+ /* height: 500px; */
+ left: 50%;
+ top: 30px;
+ margin-left: -345px;
+ /* margin-top: -300px; */
+  }
+  .headermodal{
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+   border-bottom: 1px solid #CCC;
+
+  }
+  .headermodal p{
+   text-align: left;
+   color: #666;
+   font-size: 18px;
+   font-family: 'Roboto Condensed', sans-serif;
+  }
+  .galeriamodal ul li{
+   list-style: none;
+   display: inline-block;
+   margin: 0 10px;
+    width: 115px;
+  /*height: 72px;*/
+  border:2px solid #CCC;
+  }
+  .galeriamodal ul li.ativo{border:2px solid #004068;}
+
+  .galeriamodal ul li:hover{
+   border:2px solid #004068;
+   cursor: pointer;
+  }
+
+  .galeriamodal ul img{
+   width: 100%;
+   height: 100%;
+   background-size: cover;
+  }
+  .ampimg{
+    display: table;
+  margin: 0 auto;
+   margin-bottom: 15px;
+   border: 2px solid #CCC;
+  }
+  .ampimg p{
+   display: none;
+  }
+  .ampimg img{
+    width: 350px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .disclaimer{
+   margin: 20px 0; 
+   padding: 15px;
+   background:#d8d8d8;
+   text-align: left;
+   border-radius: 5px;
+  }
+
+  .disclaimer p{
+   color: #555;
+   font-size: 12px;
+   font-family: 'arial', sans-serif;
+   text-align: left;
+   margin-bottom: 10px;
+  }
+   .disclaimer input{
+   margin-right: 10px;
+   }
+   .flutuant .price{
+   font-family: 'Roboto Condensed', sans-serif !important;
+   }
+   .product-top h1{
+  color: #004068;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: initial !important;
+}
+.t .inputContainer select{
+     -moz-appearance:window;
+     color: #b1b1b1 !important;
+     margin-left: -5px !important;
+    }
+    @-moz-document url-prefix() {
+     .t .inputContainer select{
+      width:260px !important;
+      color: #b1b1b1 !important;
+      margin-top: -4px !important;
+      margin-left: -7px !important;
+     }
+    }
+    span.melhor {
+     width: 112px;
+     height: 31px;
+     right: -9px;
+     position: absolute;
+     background: url(https://www.dentalcremer.com.br/Assets/Templates/7/imagens/melhor.png);
+     top: -1px;
+     text-indent: -999px;
+     overflow: hidden;
+     
+    }
+    .sweet-alert.mycustomclass button.cancel{
+     background: #00A600;
+     color: #FFF;
+    }
+    .tooltipInput{
+     background: none repeat scroll 0% 0% #004068;
+     color: #FFF;
+     padding: 4px;
+     margin-top: -25.5px;
+     z-index: 999;
+     position: absolute;
+     border-radius: 3px;
+     right: 3.5px;
+     font-size: 10px;
+     width: auto;
+     opacity: 1;
+     display: none;
+    }
+    .product-top-left.to-center{
+      margin: 0 auto;
+    }
+    #person{
+      display: none;
+    }
+    #content{
+      display: none;
+    }
+
+span.xs {
+  color: #9a9a9a;
+  padding-top: 5px;
+  display: block;
+}
+span.xs:before {
+  width: 15px;
+  height: 15px;
+  float: left;
+  margin-right: 10px;
+  content: "";
+  /* background-color: #FC0; */
+  background: url('http://server.dentalcremer.com.br/papelaria/assets/images/tick.png') center no-repeat;
+}
+@-moz-document url-prefix() {
+    
+  .inputContainer select.croEstado {
+    margin-top: 0px!important;
+  }
+}
+ .listaCategorias{
+        margin-top: 20px;
+    }
+    .listaCategorias ul{
+    }
+    .listaCategorias ul li{
+        width: 211px;
+        display: inline-block;
+        margin-right: 35px;
+        margin-bottom: 40px;
+    }
+    .listaCategorias ul li:nth-child(4n + 4){
+        margin-right: 0px;
+    }
+    .listaCategorias ul li a:hover .btn-vermais{
+         background: #148727;
+    }
+
+    .listaCategorias ul li a:hover .containerFotoCategoria{
+        -moz-box-shadow: inset 0px 0px 0px 3px #004068;
+        -webkit-box-shadow: inset 0px 0px 0px 3px #004068;
+        box-shadow: inset 0px 0px 0px 3px #004068;
+        
+    }
+    .listaCategorias ul li a:hover .containerFotoCategoria img{
+        opacity: 0.6;
+    }
+    .listaCategorias ul li:last-child{
+        margin-right: 0px;
+    }
+    .listaCategorias ul li .containerFotoCategoria{
+        width: 100%;
+        height: 211px;
+        display: block;
+        border:1px solid #CCC;
+        border-radius:3px;
+        margin-bottom: 10px;
+        background: url('http://www.inovamotica.pt/images/icons/magnifier.png') center no-repeat;
+
+        -webkit-transition: all 300ms ease;
+        -moz-transition: all 300ms ease;
+        -o-transition: all 300ms ease;
+        -ms-transition: all 300ms ease;
+        transition: all 300ms ease;
+    }
+    .listaCategorias ul li .containerFotoCategoria img{
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+         -webkit-transition: all 300ms ease;
+        -moz-transition: all 300ms ease;
+        -o-transition: all 300ms ease;
+        -ms-transition: all 300ms ease;
+        transition: all 300ms ease;
+    }
+    .listaCategorias ul li h3{
+        padding: 5px 0;
+        color: #014268;
+        font-family: 'arial', helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .listaCategorias ul li .breveDesc{
+        font-family: 'arial', helvetica, sans-serif;
+        font-size: 12px;
+        color: #999;
+    }
+
+    .listaCategorias ul li .startPriceLabel{
+        padding: 10px 0;
+    }
+    .listaCategorias ul li .startPriceLabel p,
+    .listaCategorias ul li .startPriceLabel a{
+      color: #014268;
+        font-size: 22px;
+        font-family: 'arial', helvetica, sans-serif;
+        font-weight: bold;
+    }
+    .listaCategorias ul li .startPriceLabel small,
+    .listaCategorias ul li .startPriceLabel small a{
+        font-size: 12px;
+        font-weight: initial;
+        color: #999;
+    }
+    .listaCategorias ul li .btn-verde{
+      display: block;
+      margin: 0;
+    }
+
+    .familiaHeader .addCartSucces{
+      float: left;
+      width: 69%;
+      box-sizing: border-box;
+    }
+
+
+    .addCartSucces{
+      padding: 15px;
+      background: #f1f1f1;
+      border:1px solid #ccc;
+      border-radius: 4px;
+    }
+
+.addCartSucces i{
+  /*background: #fff;*/
+  /* padding: 7px 3px 3px 3px; */
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 12px;
+  margin-top: -6px;
+  margin-bottom: -8px;
+  display: block;
+  float: left;
+  background: #FFF url(http://server.dentalcremer.com.br/papelaria/assets/images/tick.png) center no-repeat;
+    border: 1px solid #CCC;
+}
+    .addCartSucces h2{
+      /*text-align: center;*/
+      color: #9a9a9a;
+    }
+    .vejaFamilia{
+      margin-top: 30px;
+    }
+    .goCart{
+      float: right;
+      width: 30%;
+    }
+    .goCart a{
+      box-sizing: border-box;
+      display: block;
+      margin: 0;
+      padding: 11px;
+    }
